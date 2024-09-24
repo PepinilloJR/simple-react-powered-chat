@@ -20,7 +20,8 @@ function App() {
 
 
   function CrearSocket() {
-    setSocket(io('https://chat-back-dev-pksc.4.us-1.fl0.io'))
+    //setSocket(io('https://chat-back-dev-pksc.4.us-1.fl0.io'))
+    setSocket(io('https://chat-back-eh35.onrender.com'))
     //setSocket(io('https://24.232.114.64/'))
     //setSocket(io('https://pepinillochat.ddns.net/'))
     //(io('https://chat-back-dev-pksc.4.us-1.fl0.io'))
